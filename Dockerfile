@@ -11,11 +11,13 @@ RUN yes | emerge =dev-lang/ruby-2.2.3-r2 && rm -rf /var/tmp/protage/*
 
 ## Rails
 ADD keyword_rails /etc/portage/package.accept_keywords/rails
-RUN emerge dev-ruby/mysql2 && emerge dev-db/postgresql && rm -rf /var/tmp/protage/*
+RUN emerge dev-ruby/mysql2 &&  rm -rf /var/tmp/protage/*
+RUN emerge dev-db/postgresql && rm -rf /var/tmp/protage/*
+RUN emerge dev-db/sqlite rm -rf /var/tmp/protage/*
 RUN gem install bundler -v 1.7.9
 RUN bundle config --global frozen 1
-RUN mkdir -p /usr/src/app
 
+RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 ONBUILD COPY Gemfile /usr/src/app/
