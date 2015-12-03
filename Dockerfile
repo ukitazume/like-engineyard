@@ -23,6 +23,3 @@ ONBUILD COPY Gemfile.lock /usr/src/app/
 ONBUILD RUN bundle install
 
 ONBUILD COPY . /usr/src/app
-
-EXPOSE 3000
-CMD ["rails", "server", "-b", "0.0.0.0"]
