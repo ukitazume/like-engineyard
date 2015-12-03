@@ -56,4 +56,3 @@
 # required by virtual/rubygems-11::gentoo[ruby_targets_ruby21]
 # required by dev-ruby/racc-1.4.14::gentoo
 =app-eselect/eselect-ruby-20141227 ~amd64
-

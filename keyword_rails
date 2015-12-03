@@ -1,0 +1,2 @@
+# required by dev-ruby/mysql2 (argument)
+=dev-ruby/mysql2-0.4.2 ~amd64
