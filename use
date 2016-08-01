@@ -1,48 +1,82 @@
-# required by dev-lang/ruby-2.2.3-r2::gentoo
-# required by dev-ruby/rdoc-4.2.0::gentoo[ruby_targets_ruby22]
-# required by dev-lang/ruby-2.1.7::gentoo[rdoc]
-# required by virtual/rubygems-11::gentoo[ruby_targets_ruby21]
-# required by dev-ruby/racc-1.4.14::gentoo
->=dev-ruby/minitest-5.8.3 ruby_targets_ruby22
-# required by dev-lang/ruby-2.2.3-r2::gentoo
-# required by dev-ruby/rdoc-4.2.0::gentoo[ruby_targets_ruby22]
-# required by dev-lang/ruby-2.1.7::gentoo[rdoc]
-# required by virtual/rubygems-11::gentoo[ruby_targets_ruby21]
-# required by dev-ruby/racc-1.4.14::gentoo
->=dev-ruby/rake-10.4.2 ruby_targets_ruby22
-# required by dev-lang/ruby-2.2.3-r2::gentoo
-# required by dev-ruby/rdoc-4.2.0::gentoo[ruby_targets_ruby22]
-# required by dev-lang/ruby-2.1.7::gentoo[rdoc]
-# required by virtual/rubygems-11::gentoo[ruby_targets_ruby21]
-# required by dev-ruby/racc-1.4.14::gentoo
->=dev-ruby/power_assert-0.2.6 ruby_targets_ruby22
-# required by dev-ruby/rdoc-4.2.0::gentoo[ruby_targets_ruby22]
-# required by dev-lang/ruby-2.2.3-r2::gentoo[rdoc]
-# required by virtual/rubygems-11::gentoo[ruby_targets_ruby22]
-# required by dev-ruby/racc-1.4.14::gentoo
->=dev-ruby/json-1.8.3 ruby_targets_ruby22
-# required by virtual/rubygems-11::gentoo[ruby_targets_ruby22]
-# required by dev-ruby/rdoc-4.2.0::gentoo
-# required by dev-lang/ruby-2.2.3-r2::gentoo[rdoc]
-# required by dev-ruby/racc-1.4.14::gentoo[ruby_targets_ruby22]
->=dev-ruby/rubygems-2.4.8 ruby_targets_ruby22
-# required by dev-lang/ruby-2.2.3-r2::gentoo
-# required by dev-ruby/rdoc-4.2.0::gentoo[ruby_targets_ruby22]
-# required by dev-lang/ruby-2.1.7::gentoo[rdoc]
-# required by virtual/rubygems-11::gentoo[ruby_targets_ruby21]
-# required by dev-ruby/racc-1.4.14::gentoo
->=dev-ruby/test-unit-3.1.5 ruby_targets_ruby22
-# required by dev-ruby/rdoc-4.2.0::gentoo[ruby_targets_ruby22]
-# required by dev-lang/ruby-2.2.3-r2::gentoo[rdoc]
-# required by virtual/rubygems-11::gentoo[ruby_targets_ruby22]
-# required by dev-ruby/test-unit-3.1.5::gentoo[-test,ruby_targets_ruby22]
->=dev-ruby/racc-1.4.14 ruby_targets_ruby22
-# required by dev-ruby/json-1.8.3::gentoo[-test,ruby_targets_ruby22]
-# required by dev-ruby/rdoc-4.2.0::gentoo[ruby_targets_ruby22]
-# required by dev-lang/ruby-2.2.3-r2::gentoo[rdoc]
-# required by dev-ruby/racc-1.4.14::gentoo[ruby_targets_ruby22]
->=virtual/rubygems-11 ruby_targets_ruby22
-# required by dev-lang/ruby-2.2.3-r2::gentoo[rdoc]
-# required by virtual/rubygems-11::gentoo[ruby_targets_ruby22]
-# required by dev-ruby/racc-1.4.14::gentoo
->=dev-ruby/rdoc-4.2.0 ruby_targets_ruby22
+# required by dev-lang/ruby-2.3.1::gentoo
+# required by dev-ruby/json-2.0.2::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.1.9::gentoo
+# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby21]
+>=dev-ruby/did_you_mean-1.0.2 ruby_targets_ruby23
+# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby23,-test]
+# required by dev-lang/ruby-2.2.5::gentoo
+# required by dev-ruby/json-2.0.2::gentoo[ruby_targets_ruby22]
+# required by dev-lang/ruby-2.1.9::gentoo
+# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby21]
+# required by dev-lang/ruby-2.3.1::gentoo
+# required by dev-ruby/did_you_mean-1.0.2::gentoo[ruby_targets_ruby23]
+>=virtual/rubygems-11 ruby_targets_ruby23
+# required by dev-ruby/rdoc-4.2.2::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.1.9::gentoo[rdoc]
+# required by dev-ruby/json-2.0.2::gentoo[ruby_targets_ruby21]
+# required by dev-lang/ruby-2.0.0_p648::gentoo
+# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby20]
+# required by dev-lang/ruby-2.3.1::gentoo
+# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.2.5::gentoo
+# required by dev-ruby/minitest-5.9.0::gentoo[ruby_targets_ruby22]
+>=dev-ruby/racc-1.4.14 ruby_targets_ruby23
+# required by virtual/rubygems-11::gentoo[ruby_targets_ruby23]
+# required by dev-ruby/json-2.0.2::gentoo[-test,ruby_targets_ruby21]
+# required by dev-lang/ruby-2.1.9::gentoo
+# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby21]
+# required by dev-lang/ruby-2.3.1::gentoo
+# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.2.5::gentoo
+# required by dev-ruby/minitest-5.9.0::gentoo[ruby_targets_ruby22]
+>=dev-ruby/rubygems-2.6.6 ruby_targets_ruby23
+# required by dev-lang/ruby-2.3.1::gentoo
+# required by dev-ruby/json-2.0.2::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.1.9::gentoo
+# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby21]
+>=dev-ruby/test-unit-3.2.1 ruby_targets_ruby23
+# required by dev-lang/ruby-2.3.1::gentoo
+# required by dev-ruby/json-2.0.2::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.1.9::gentoo
+# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby21]
+>=dev-ruby/minitest-5.9.0 ruby_targets_ruby23
+# required by dev-lang/ruby-2.3.1::gentoo
+# required by dev-ruby/json-2.0.2::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.1.9::gentoo
+# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby21]
+# required by dev-lang/ruby-2.2.5::gentoo
+# required by dev-ruby/minitest-5.9.0::gentoo[ruby_targets_ruby22]
+>=dev-ruby/net-telnet-0.1.1-r1 ruby_targets_ruby23
+# required by dev-lang/ruby-2.3.1::gentoo[rdoc]
+# required by dev-ruby/json-2.0.2::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.1.9::gentoo
+# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby21]
+>=dev-ruby/rdoc-4.2.2 ruby_targets_ruby23
+# required by dev-lang/ruby-2.3.1::gentoo
+# required by dev-ruby/json-2.0.2::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.1.9::gentoo
+# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby21]
+>=dev-ruby/rake-11.2.2-r1 ruby_targets_ruby23
+# required by dev-ruby/rdoc-4.2.2::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.1.9::gentoo[rdoc]
+# required by dev-ruby/json-2.0.2::gentoo[ruby_targets_ruby21]
+# required by dev-lang/ruby-2.0.0_p648::gentoo
+# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby20]
+# required by dev-lang/ruby-2.3.1::gentoo
+# required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.2.5::gentoo
+# required by dev-ruby/minitest-5.9.0::gentoo[ruby_targets_ruby22]
+>=dev-ruby/json-1.8.3:0 ruby_targets_ruby23
+# required by dev-lang/ruby-2.3.1::gentoo
+# required by dev-ruby/json-2.0.2::gentoo[ruby_targets_ruby23]
+# required by dev-lang/ruby-2.1.9::gentoo
+# required by dev-ruby/net-telnet-0.1.1-r1::gentoo[ruby_targets_ruby21]
+>=dev-ruby/power_assert-0.2.7 ruby_targets_ruby23
+# required by dev-lang/ruby-2.3.1::gentoo
+# # required by dev-ruby/power_assert-0.2.7::gentoo[ruby_targets_ruby23]
+# # required by dev-lang/ruby-2.2.5::gentoo
+# # required by dev-ruby/minitest-5.9.0::gentoo[ruby_targets_ruby22]
+>=dev-ruby/json-2.0.2 ruby_targets_ruby23
+
+
+
