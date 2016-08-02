@@ -7,7 +7,7 @@ RUN emerge eix vim net-misc/curl dev-vcs/git && rm -rf /var/tmp/portage/*
 ## Ruby
 ADD keyword /etc/portage/package.accept_keywords/ruby
 ADD use /etc/portage/package.use/ruby
-RUN yes | emerge =dev-lang/ruby-2.2.3-r2 && rm -rf /var/tmp/protage/*
+RUN yes | emerge =dev-lang/ruby-2.2.5 && rm -rf /var/tmp/protage/*
 
 
 ## Rails
